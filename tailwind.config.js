@@ -6,6 +6,9 @@ module.exports = {
       colors: {
         primary: "#f5f5f5",
         secondary: "#00f6ff"
+      },
+      fontFamily: {
+        'custom': ['Roboto', 'sans-serif']
       }
     },
   },
@@ -13,4 +16,3 @@ module.exports = {
 
   ],
 }
-
