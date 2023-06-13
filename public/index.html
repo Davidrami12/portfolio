@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="icon" href="./assets/icons/portfolio.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - David Ramírez Rodríguez</title>
     <link href="/dist/output.css" rel="stylesheet">
@@ -9,66 +10,68 @@
 
 </head>
 <body class="font-custom">
-    <header class="py-28 bg-gray-800 text-white">
+    <header class="pt-32 pb-16 bg-gray-800 text-white">
 
         <div class="w-full bg-gray-600 fixed z-50 top-0 text-right">
             <nav class="max-w-5xl mx-auto p-6">
                 <ul class="flex justify-end space-x-4 container-fluid">
-                    <li><a href="#about" class="hover:underline">About me</a></li>
-                    <li><a href="#curriculum" class="hover:underline">My CV</a></li>
-                    <li><a href="#projects" class="hover:underline">Projects</a></li>
-                    <li><a href="#contact" class="hover:underline">Contact</a></li>
+                    <li><a href="#about" class="hover:underline hover:underline-offset-8 hover:decoration-2">About me</a></li>
+                    <li><a href="#curriculum" class="hover:underline hover:underline-offset-8 hover:decoration-2">CV</a></li>
+                    <li><a href="#projects" class="hover:underline hover:underline-offset-8 hover:decoration-2">Projects</a></li>
+                    <li><a href="#contact" class="hover:underline hover:underline-offset-8 hover:decoration-2">Contact</a></li>
                 </ul>
             </nav>
         </div>
         
         
-        <div class="max-w-5xl mx-auto p-5 flex items-center">
+        <div class="max-w-5xl mx-auto p-5 flex flex-col md:flex-row items-center">
             
-                <img src="./assets/photo.png" alt="me" class="max-w-xs rounded-full">
-            
-            
+            <img src="./assets/photo.png" alt="David Ramírez Rodríguez" class="max-w-xs rounded-full mb-4 md:mb-0 md:mr-6">
+                    
             <div class="p-6">
                 <h1 class="text-7xl font-bold">David Ramírez Rodríguez</h1>
                 <p class="text-xl mt-4">Hello World! I'm a <b>Full-Stack Developer</b> based in Madrid, Spain.</p>
             </div>
-            
+                    
         </div>
+        
         
     </header>
 
 
 
     <main>
-        <section id="about" class="pt-10 pb-10 text-justify">
+        <section id="about" class="pt-10 text-justify">
             <div class="max-w-5xl mx-auto p-4">
-                <h2 class="text-4xl font-bold py-10 underline">About me</h2>
+                <h2 class="text-4xl font-bold py-10 underline text-center">About me</h2>
                 <p class="mt-4 mb-5">
-                    Motivated and experienced full-stack developer, with a strong focus on front-end development. 
+                    <b>Motivated and experienced</b> full-stack developer, with a strong focus on front-end development. 
                     Although I am a junior developer, I have extensive experience with modern web frameworks and tools, 
-                    and I am always eager to learn and stay up-to-date with the latest technologies.
+                    and I am always eager to <b>learn</b> and <b>stay up-to-date</b> with the latest technologies.
                 </p>
                 <p class="mt-4 mb-5">
-                    Fast learner and a creative problem-solver, with a track record of adapting quickly to new technologies 
-                    and delivering high-quality code. I am also fluent in English, which allows me to collaborate 
+                    <b>Fast learner and a creative problem-solver</b>, with a track record of adapting quickly to new technologies 
+                    and delivering <b>high-quality code</b>. I am also <b>fluent in English</b>, which allows me to collaborate 
                     effectively with teams from all over the world.
                 </p>
                 <p class="mt-4 mb-5">
                     With my expertise in React, TypeScript, and other modern technologies, 
-                    I am confident that I can bring value to any project and help drive its success.
+                    I am confident that <b>I can bring value to any project</b> and help drive its success.
                 </p>
             </div>
         </section>
 
 
 
-        <section id="curriculum" class="pt-10 pb-10 text-justify">
+        <section id="curriculum" class="pt-10 pb-20 text-justify">
             <div class="max-w-5xl mx-auto p-4">
-                <h2 class="text-4xl font-bold py-10 underline">Curriculum Vitae</h2>
-                <div>
-                    <p>Download my CV here</p>
+                <h2 class="text-4xl font-bold py-10 underline text-center">Curriculum Vitae</h2>
+                <div class="flex justify-center">
+                    <a title="Download Curriculum" role="button" download="" href="./assets/cv/david-ramírez-cv.pdf" class="border-2 border-black rounded-xl flex items-center space-x-3 text-sm md:text-base w-fit group cta-btn px-6 py-3 hover:bg-black hover:border-transparent hover:text-white transition-colors duration-500">
+                        <span>Download my CV</span>
+                        <svg class="svg-icon" fill="currentColor" height="25px" width="25px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 392.533 392.533" xml:space="preserve"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <g> <g> <path d="M292.396,324.849H99.879c-6.012,0-10.925,4.848-10.925,10.925c0,6.012,4.849,10.925,10.925,10.925h192.582 c6.012,0,10.925-4.849,10.925-10.925C303.321,329.697,298.473,324.849,292.396,324.849z"></path> </g> </g> <g> <g> <path d="M292.396,277.01H99.879c-6.012,0-10.925,4.848-10.925,10.925c0,6.012,4.849,10.925,10.925,10.925h192.582 c6.012,0,10.925-4.849,10.925-10.925C303.321,281.859,298.473,277.01,292.396,277.01z"></path> </g> </g> <g> <g> <path d="M196.137,45.834c-25.859,0-46.998,21.075-46.998,46.998c0,25.859,21.139,46.933,46.998,46.933 s46.998-21.075,46.998-46.998S221.996,45.834,196.137,45.834z M196.137,117.851c-13.77,0-25.083-11.313-25.083-25.083 c0-13.77,11.248-25.083,25.083-25.083s25.083,11.313,25.083,25.083C221.22,106.537,209.907,117.851,196.137,117.851z"></path> </g> </g> <g> <g> <path d="M258.521,163.362c-39.887-15.515-84.752-15.515-124.638,0c-13.059,5.107-21.786,18.101-21.786,32.388v44.347 c-0.065,6.012,4.849,10.925,10.861,10.925h146.424c6.012,0,10.925-4.848,10.925-10.925V195.75 C280.307,181.463,271.58,168.469,258.521,163.362z M258.521,229.236H133.883v-33.422c0-5.301,3.168-10.214,7.887-12.024 c34.844-13.511,74.02-13.511,108.865,0c4.719,1.875,7.887,6.659,7.887,12.024V229.236z"></path> </g> </g> <g> <g> <path d="M313.083,0H131.491c-8.404,0-16.291,3.232-22.238,9.18L57.018,61.414c-5.947,5.948-9.18,13.834-9.18,22.238v277.333 c0,17.39,14.158,31.547,31.547,31.547h233.762c17.39,0,31.547-14.158,31.547-31.547V31.547C344.501,14.158,330.343,0,313.083,0z M112.032,37.236v27.022H85.01L112.032,37.236z M322.715,116.816h-40.598c-6.012,0-10.925,4.849-10.925,10.925 c0,6.012,4.848,10.925,10.925,10.925h40.598v19.394h-14.869c-6.012,0-10.925,4.848-10.925,10.925 c0,6.012,4.849,10.925,10.925,10.925h14.869v181.139c0,5.366-4.331,9.697-9.632,9.697H79.192c-5.301,0-9.632-4.331-9.632-9.632 V86.044h53.398c6.012,0,10.925-4.848,10.925-10.925V21.721h179.2c5.301,0,9.632,4.331,9.632,9.632V116.816z"></path> </g> </g> </g></svg>
+                    </a>
                 </div>
-                
             </div>
         </section>
         
@@ -76,7 +79,7 @@
 
         <section id="projects" class="pt-10 pb-10 bg-gray-100">
             <div class="max-w-5xl mx-auto p-4">
-                <h2 class="text-4xl py-10 font-bold underline">Projects</h2>
+                <h2 class="text-4xl py-10 font-bold underline text-center">Projects</h2>
 
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
 
@@ -88,7 +91,7 @@
 
                         <div class="p-4 md:p-6 flex flex-col h-full justify-between">
                             <p class="text-sm md:text-base text-black pb-4 md:pb-8 text-justify">
-                                Website developed in VueJS using the Mapbox API to simulate the main functions of Google Maps. Search places, explore and draw polylines between two coordinates. 
+                                Website developed in <b>VueJS</b> using the Mapbox API to simulate the main functions of Google Maps. Search places, explore and draw polylines between two coordinates. 
                             </p>
                             <div class="flex justify-between space-x-2">
                                 <a role="button" target="_blank" class="bg-gray-600 text-white rounded-md cta-btn px-4 py-1 text-sm md:text-base duration-300 ease-in-out hover:bg-black" href="https://github.com/Davidrami12/vue-maps">Repository</a>
@@ -105,7 +108,7 @@
 
                         <div class="p-4 md:p-6 flex flex-col h-full justify-between">
                             <p class="text-sm md:text-base text-black pb-4 md:pb-8 text-justify">
-                                Interactive SPA with ReactJS & Redux using Unsplash API to search images, add to favorites and download. It can also generate random pics, explore by topics and filter.
+                                Interactive SPA with <b>ReactJS & Redux</b> using Unsplash API to search images, add to favorites and download. It can also generate random pics, explore by topics and filter.
                             </p>
                             <div class="flex justify-between space-x-2">
                                 <a role="button" target="_blank" class="bg-gray-600 text-white rounded-md cta-btn px-4 py-1 text-sm md:text-base  duration-300 ease-in-out hover:bg-black" href="https://github.com/Davidrami12/GalleryApp">Repository</a>
@@ -122,7 +125,7 @@
 
                         <div class="p-4 md:p-6 flex flex-col h-full justify-between">
                             <p class="text-sm md:text-base text-black pb-4 md:pb-8 text-justify">
-                                Landing page with HTML5, CSS3, Sass and JS. Dynamic navigation with responsive layout, combines elegance and functionality for an engaging user experience.
+                                Landing page with <b>HTML5, CSS3, Sass and JS.</b> Dynamic navigation with responsive layout, combines elegance and functionality for an engaging user experience.
                             </p>
                             <div class="flex justify-between space-x-2">
                                 <a role="button" target="_blank" class="bg-gray-600 text-white rounded-md cta-btn px-4 py-1 text-sm md:text-base  duration-300 ease-in-out hover:bg-black" href="https://github.com/Davidrami12/oxygen-shop">Repository</a>
@@ -139,7 +142,7 @@
 
                         <div class="p-4 md:p-6 flex flex-col h-full justify-between">
                             <p class="text-sm md:text-base text-black pb-4 md:pb-8 text-justify">
-                                Virtual classroom project to manage subjects, students, and teachers. Ensuring a dynamic, responsive and educational platform. Made with HTML, Bootstrap, JS, and PHP. 
+                                Virtual classroom project to manage subjects, students, and teachers. Ensuring a dynamic, responsive and educational platform. Made with <b>HTML, Bootstrap, JS, PHP & MySQL.</b>
                             </p>
                             <div class="flex justify-between space-x-2">
                                 <a role="button" target="_blank" class="bg-gray-600 text-white rounded-md cta-btn px-4 py-1 text-sm md:text-base  duration-300 ease-in-out hover:bg-black" href="https://github.com/Davidrami12/AulaVirtual-InfoFuture">Repository</a>
@@ -155,7 +158,7 @@
 
                         <div class="p-4 md:p-6 flex flex-col h-full justify-between">
                             <p class="text-sm md:text-base text-black pb-4 md:pb-8 text-justify">
-                                Simple text editor developed in Python. Write a journey with the same functionalities as a notepad: open, create, write and save as.
+                                Simple text editor developed in <b>Python.</b> Write a journey with the same functionalities as a notepad: open, create, write and save as.
                             </p>
                             <div class="flex justify-between space-x-2">
                                 <a role="button" target="_blank" class="bg-gray-600 text-white rounded-md cta-btn px-4 py-1 text-sm md:text-base  duration-300 ease-in-out hover:bg-black" href="https://github.com/Davidrami12/editor-tkinter">Repository</a>
@@ -172,7 +175,7 @@
         
         <section id="contact" class="pt-10 pb-10">
             <div class="max-w-5xl mx-auto p-4">
-                <h2 class="text-4xl py-10 font-bold underline">Contact</h2>
+                <h2 class="text-4xl py-10 font-bold underline text-center">Contact</h2>
 
                 <div class="text-center">
                     <p class="mt-4">I am always interested in hearing about new projects and opportunities.</p>
