@@ -10,7 +10,8 @@ module.exports = {
         third: "005ba1"
       },
       fontFamily: {
-        'custom': ['Roboto', 'sans-serif']
+        /*'custom': ['Roboto', 'sans-serif']*/
+        'custom': ['Roboto Slab', 'serif'],
       },
     },
   },
