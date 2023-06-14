@@ -9,13 +9,12 @@
 
 /* This will style the track of the scrollbar (the background) */
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: #f5f5f5;
 }
 
 /* This will style the handle of the scrollbar (the scrolling part) */
 ::-webkit-scrollbar-thumb {
-    background: #888;
-    border-radius: 8px;
+    background: black;
 }
 
 /* This will change the style of the handle when you hover over it */
