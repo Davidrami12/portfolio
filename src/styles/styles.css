@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* This will hide the default scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* This will style the track of the scrollbar (the background) */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* This will style the handle of the scrollbar (the scrolling part) */
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+/* This will change the style of the handle when you hover over it */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
