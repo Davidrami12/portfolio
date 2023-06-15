@@ -7,9 +7,9 @@ Hello 👋 my name is David. I'm a Full-Stack Developer with a passion about cod
 ## Contents
 
 > Resume - An up-to-date copy of my professional resume.
-<br/>
+
 > My CV - A doc of my education, job careers and professional certifications.
-<br/>
+
 > Contact section - If you want to get in touch with me!
 
 ## Projects
