@@ -7,7 +7,9 @@ Hello 👋 my name is David. I'm a Full-Stack Developer with a passion about cod
 ## Contents
 
 > Resume - An up-to-date copy of my professional resume.
+<br/>
 > My CV - A doc of my education, job careers and professional certifications.
+<br/>
 > Contact section - If you want to get in touch with me!
 
 ## Projects
@@ -18,14 +20,15 @@ Hello 👋 my name is David. I'm a Full-Stack Developer with a passion about cod
 4. <b><u>🎓 Info Future</u></b> - Virtual classroom project to manage subjects, students, and teachers. Ensuring a dynamic, responsive and educational platform. Made with <b>HTML, Bootstrap, JS, PHP & MySQL.</b>
 5. <b><u>✍️ Tkinter Editor</u></b> - Simple text editor developed in <b>Python.</b> Write a journey with the same functionalities as a notepad: open, create, write and save as.
 
-
-/*## Featured Projects
+<!--
+## Featured Projects
 
 ### Project 1
 In this project, I [describe what you did and why]. The outcome was [describe the outcome].
 
 ### Project 2
-For this project, I [describe what you did and why]. The results included [describe the results].*/
+For this project, I [describe what you did and why]. The results included [describe the results].
+-->
 
 ## Technologies used on this portfolio
 
@@ -36,4 +39,4 @@ For this project, I [describe what you did and why]. The results included [descr
 
 ## Contact Information
 
-Feel free to reach out to me at davidrami2000@gmail.com. You can also connect with me on [LinkedIn](https://www.linkedin.com/in/davidrami12/), [GitHub](https://github.com/Davidrami12).
+Feel free to reach out to me at 📧 davidrami2000@gmail.com. You can also connect with me on [LinkedIn](https://www.linkedin.com/in/davidrami12/), [GitHub](https://github.com/Davidrami12).
