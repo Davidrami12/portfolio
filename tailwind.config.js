@@ -11,6 +11,9 @@ module.exports = {
       fontFamily: {
         'custom': ['Roboto Slab', 'serif'],
       },
+      boxShadow: {
+        'custom': '0px 20px 20px 5px #00000052'
+      },
     },
   },
   plugins: [
