@@ -707,6 +707,11 @@ video {
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
 }
 
+.bg-gray-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(229 231 235 / var(--tw-bg-opacity));
+}
+
 .bg-gray-500 {
   --tw-bg-opacity: 1;
   background-color: rgb(107 114 128 / var(--tw-bg-opacity));
@@ -840,16 +845,32 @@ video {
   padding-top: 2.5rem;
 }
 
+.pt-20 {
+  padding-top: 5rem;
+}
+
 .pt-32 {
   padding-top: 8rem;
 }
 
-.pt-5 {
-  padding-top: 1.25rem;
-}
-
 .pt-8 {
   padding-top: 2rem;
+}
+
+.pt-0 {
+  padding-top: 0px;
+}
+
+.pt-40 {
+  padding-top: 10rem;
+}
+
+.pt-3 {
+  padding-top: 0.75rem;
+}
+
+.pt-36 {
+  padding-top: 9rem;
 }
 
 .text-center {
@@ -948,6 +969,11 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
 /* This will hide the default scrollbar */
 
 ::-webkit-scrollbar {
@@ -970,6 +996,51 @@ video {
 
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+
+.cus-div{
+  width: 100%;
+  position: relative;
+}
+
+#skew1{
+  z-index: 10;
+  background-color: #E5E7EB;
+}
+
+#skew2{
+  z-index: 9;
+  background-color: #FFFFFF;
+}
+
+#skew3{
+  z-index: 8;
+  background-color: #E5E7EB;
+}
+
+#skew4{
+  z-index: 7;
+  background-color: lightyellow;
+}
+
+.cus-div::after{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  z-index: -1;
+  bottom: 0;
+  content: '';
+}
+
+#skew1::after, #skew3::after, #skew4::after{
+  transform-origin: left bottom;
+  transform: skewY(3deg);
+}
+
+#skew2::after{
+  transform-origin: right bottom;
+  transform: skewY(-3deg);
 }
 
 .hover\:border-transparent:hover {
