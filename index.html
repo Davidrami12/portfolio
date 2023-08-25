@@ -70,7 +70,7 @@
                                 I am confident that <b>I can bring value to any project</b> and help drive its success.
                             </p>
                         </div>
-                        <img src="src/assets/picture.jpg" alt="Picture in the snow" class="shadow-2xl w-full max-w-[300px] max-h-[400px] rounded-lg">
+                        <img src="src/assets/picture.jpg" alt="Picture in the snow" class="shadow-2xl w-full max-w-[300px] max-h-[400px] rounded-lg outline outline-offset-8 outline-white">
                     </div>
                 </div>
             </section>
@@ -96,9 +96,40 @@
         <div id="skew3" class="cus-div">
             <section id="projects" class="pt-20 pb-20 bg-gray-200">
                 <div class="content max-w-5xl mx-auto p-4">
-                    <h2 class="text-4xl py-10 font-bold underline text-center">Projects</h2>
+                    <h2 class="text-4xl py-10 font-bold underline text-center">My Projects</h2>
     
-                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+                    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                        <article class="shadow-lg rounded-xl w-full bg-white flex flex-col h-auto zoom-in-short border border-gray-200">
+                            <picture class="bg-gradient-to-t from-black via-transparent to-transparent relative">
+                                <h1 class="absolute z-20 left-5 bottom-5 text-white font-bold text-xl md:text-2xl">Miranda Dashboard</h1>
+                                <img loading="lazy" src="src/assets/projects/dashboard.jpg" class="h-44 md:h-52 w-full object-cover rounded-t-xl mix-blend-multiply" alt="Miranda Dashboard">
+                            </picture>
+                            <div class="p-4 md:p-6 flex flex-col h-full justify-between">
+                                <p class="text-sm md:text-base text-black pb-4 md:pb-8 text-justify">
+                                    Huge front-end project recreating an administrative dashboard with management actions for Miranda Hotel. Mainly developed in <b>TypeScript, React & Redux</b> and deployed on <b>AWS.</b>
+                                </p>
+                                <div class="flex justify-between space-x-2">
+                                    <a role="button" target="_blank" class="bg-gray-500 text-white rounded-md cta-btn px-4 py-1 text-sm md:text-base duration-300 ease-in-out hover:bg-black" href="https://github.com/Davidrami12/miranda-dashboard">Repository</a>
+                                    <a role="button" target="_blank" class="bg-gray-500 text-white rounded-md cta-btn px-4 py-1 text-sm md:text-base duration-300 ease-in-out hover:bg-black" href="http://miranda-travl.s3-website.eu-west-3.amazonaws.com/miranda">Visit website</a>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="shadow-lg rounded-xl w-full bg-white flex flex-col h-auto zoom-in-short border border-gray-200">
+                            <picture class="bg-gradient-to-t from-black via-transparent to-transparent relative">
+                                <h1 class="absolute z-20 left-5 bottom-5 text-white font-bold text-xl md:text-2xl">Miranda API</h1>
+                                <img loading="lazy" src="src/assets/projects/backend.jpg" class="h-44 md:h-52 w-full object-cover rounded-t-xl mix-blend-multiply" alt="Miranda Backend">
+                            </picture>
+                            <div class="p-4 md:p-6 flex flex-col h-full justify-between">
+                                <p class="text-sm md:text-base text-black pb-4 md:pb-8 text-justify">
+                                    Huge back-end project building an API RESTful with <b>Node.js + Express</b> for the admin dashboard which is connected to the front-end side and using <b>MongoDB</b> as the database.
+                                </p>
+                                <div class="flex justify-between space-x-2">
+                                    <a role="button" target="_blank" class="bg-gray-500 text-white rounded-md cta-btn px-4 py-1 text-sm md:text-base duration-300 ease-in-out hover:bg-black" href="https://github.com/Davidrami12/miranda-dashboard-backend">Repository</a>
+                                </div>
+                            </div>
+                        </article>
     
                         <article class="shadow-lg rounded-xl w-full bg-white flex flex-col h-auto zoom-in-short border border-gray-200">
                             <picture class="bg-gradient-to-t from-black via-transparent to-transparent relative">
@@ -107,7 +138,7 @@
                             </picture>
                             <div class="p-4 md:p-6 flex flex-col h-full justify-between">
                                 <p class="text-sm md:text-base text-black pb-4 md:pb-8 text-justify">
-                                    Website developed in <b>VueJS</b> using the Mapbox API to simulate the main functions of Google Maps. Search places, explore and draw polylines between two coordinates. 
+                                    Website developed in <b>VueJS</b> and <b>TypeScript</b> using the Mapbox API to simulate the main functions of Google Maps. Search places, explore and draw polylines between two coordinates. 
                                 </p>
                                 <div class="flex justify-between space-x-2">
                                     <a role="button" target="_blank" class="bg-gray-500 text-white rounded-md cta-btn px-4 py-1 text-sm md:text-base duration-300 ease-in-out hover:bg-black" href="https://github.com/Davidrami12/vue-maps">Repository</a>
@@ -148,7 +179,7 @@
                             </div>
                         </article>
         
-                        <article class="shadow-lg rounded-xl w-full bg-white flex flex-col h-auto zoom-in-short border border-gray-200">
+                        <!-- <article class="shadow-lg rounded-xl w-full bg-white flex flex-col h-auto zoom-in-short border border-gray-200">
                             <picture class="bg-gradient-to-t from-black via-transparent to-transparent relative">
                                 <h1 class="absolute z-20 left-5 bottom-5 text-white font-bold text-xl md:text-2xl">Info Future</h1>
                                 <img loading="lazy" src="src/assets/projects/info-future.png" class="h-44 md:h-52 w-full object-cover rounded-t-xl mix-blend-multiply" alt="Info Future">
@@ -161,7 +192,7 @@
                                     <a role="button" target="_blank" class="bg-gray-500 text-white rounded-md cta-btn px-4 py-1 text-sm md:text-base  duration-300 ease-in-out hover:bg-black" href="https://github.com/Davidrami12/AulaVirtual-InfoFuture">Repository</a>
                                 </div>
                             </div>
-                        </article>
+                        </article> -->
         
                         <article class="shadow-lg rounded-xl w-full bg-white flex flex-col h-auto zoom-in-short border border-gray-200">
                             <picture class="bg-gradient-to-t from-black via-transparent to-transparent relative">
@@ -170,7 +201,7 @@
                             </picture>
                             <div class="p-4 md:p-6 flex flex-col h-full justify-between">
                                 <p class="text-sm md:text-base text-black pb-4 md:pb-8 text-justify">
-                                    Simple text editor developed in <b>Python.</b> Write a journey with the same functionalities as a notepad: open, create, write and save as.
+                                    Simple text editor developed in <b>Python.</b> Write a journey with the same functionalities as a notepad: open, create, write and save as. Just like a notepad.
                                 </p>
                                 <div class="flex justify-between space-x-2">
                                     <a role="button" target="_blank" class="bg-gray-500 text-white rounded-md cta-btn px-4 py-1 text-sm md:text-base  duration-300 ease-in-out hover:bg-black" href="https://github.com/Davidrami12/editor-tkinter">Repository</a>
