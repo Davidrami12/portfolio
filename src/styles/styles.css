@@ -5,6 +5,7 @@
 html, body{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 /* This will hide the default scrollbar */
@@ -14,17 +15,18 @@ html, body{
 
 /* This will style the track of the scrollbar (the background) */
 ::-webkit-scrollbar-track {
-    background: #f5f5f5;
+    background: white;
 }
 
 /* This will style the handle of the scrollbar (the scrolling part) */
 ::-webkit-scrollbar-thumb {
-    background: black;
+    background: #555;
+    border-radius: 10px;
 }
 
 /* This will change the style of the handle when you hover over it */
 ::-webkit-scrollbar-thumb:hover {
-    background: #555;
+    background: black;
 }
 
 .cus-div{
@@ -64,10 +66,10 @@ html, body{
 
 #skew1::after, #skew3::after, #skew4::after{
     transform-origin: left bottom;
-    transform: skewY(3deg);
+    transform: skewY(4deg);
 }
 
 #skew2::after{
     transform-origin: right bottom;
-    transform: skewY(-3deg);
+    transform: skewY(-4deg);
 }
