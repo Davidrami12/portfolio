@@ -19,7 +19,7 @@ Hello 👋 my name is David. I'm a Full-Stack Developer with a passion about cod
 3. <b><u>🛍️ Oxygen Shop</u></b> - Landing page with <b>HTML5, CSS3, Sass and JS.</b> Dynamic navigation with responsive layout, combines elegance and functionality for an engaging user experience.
 4. <b><u>🎓 Info Future</u></b> - Virtual classroom project to manage subjects, students, and teachers. Ensuring a dynamic, responsive and educational platform. Made with <b>HTML, Bootstrap, JS, PHP & MySQL.</b>
 5. <b><u>✍️ Tkinter Editor</u></b> - Simple text editor developed in <b>Python.</b> Write a journey with the same functionalities as a notepad: open, create, write and save as.
-6. <b><u>💻 Miranda Dashboard</u></b> - .
+6. <b><u>💻 Miranda Dashboard</u></b> -  .
 7. <b><u>⚙️ Miranda API</u></b> - .
 8. <b><u>🏨 Hotel Miranda</u></b> - .
 
