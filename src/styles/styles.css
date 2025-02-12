@@ -73,3 +73,23 @@ html, body{
     transform-origin: right bottom;
     transform: skewY(-4deg);
 }
+
+.display-text {
+    background-color: lightcyan;
+    animation: blurFadeOut 2s forwards;
+}
+
+@keyframes blurFadeOut {
+    0% {
+        opacity: 1;
+        filter: blur(0px);
+    }
+    50% {
+        filter: blur(3px);
+    }
+    100% {
+        opacity: 0;
+        filter: blur(5px);
+        visibility: hidden;
+    }
+}

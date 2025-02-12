@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.3.5 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -191,10 +191,6 @@ select,
 textarea {
   font-family: inherit;
   /* 1 */
-  font-feature-settings: inherit;
-  /* 1 */
-  font-variation-settings: inherit;
-  /* 1 */
   font-size: 100%;
   /* 1 */
   font-weight: inherit;
@@ -342,14 +338,6 @@ ul,
 menu {
   list-style: none;
   margin: 0;
-  padding: 0;
-}
-
-/*
-Reset default styling for dialogs.
-*/
-
-dialog {
   padding: 0;
 }
 
@@ -636,10 +624,6 @@ video {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.flex-row {
-  flex-direction: row;
-}
-
 .flex-col {
   flex-direction: column;
 }
@@ -660,12 +644,12 @@ video {
   justify-content: space-between;
 }
 
-.gap-8 {
-  gap: 2rem;
-}
-
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -942,6 +926,11 @@ video {
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
+.text-blue-500 {
+  --tw-text-opacity: 1;
+  color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
 .text-gray-700 {
   --tw-text-opacity: 1;
   color: rgb(55 65 81 / var(--tw-text-opacity));
@@ -1093,6 +1082,28 @@ html, body{
   transform: skewY(-4deg);
 }
 
+.display-text {
+  background-color: lightcyan;
+  animation: blurFadeOut 2s forwards;
+}
+
+@keyframes blurFadeOut {
+  0% {
+    opacity: 1;
+    filter: blur(0px);
+  }
+
+  50% {
+    filter: blur(3px);
+  }
+
+  100% {
+    opacity: 0;
+    filter: blur(5px);
+    visibility: hidden;
+  }
+}
+
 .hover\:border-transparent:hover {
   border-color: transparent;
 }
@@ -1150,16 +1161,8 @@ html, body{
     flex-direction: row;
   }
 
-  .sm\:flex-col {
-    flex-direction: column;
-  }
-
   .sm\:justify-center {
     justify-content: center;
-  }
-
-  .sm\:gap-4 {
-    gap: 1rem;
   }
 
   .sm\:gap-8 {
@@ -1226,18 +1229,6 @@ html, body{
 @media (min-width: 1024px) {
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
-  }
-
-  .lg\:flex-col {
-    flex-direction: column;
-  }
-
-  .lg\:justify-center {
-    justify-content: center;
-  }
-
-  .lg\:gap-4 {
-    gap: 1rem;
   }
 
   .lg\:text-7xl {
